@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 import joblib
 
 # Укажите путь к вашему CSV-файлу с данными
-DATA_FILE = 'train.csv' # Замените на реальное имя вашего файла!
+DATA_FILE = 'train_.csv' # Замените на реальное имя вашего файла!
 
 # Пример данных для создания тестового CSV, если у вас его нет
 try:
