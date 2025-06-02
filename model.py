@@ -19,7 +19,7 @@ def load_summarizer_model():
         # Проверяем доступность GPU
         device = 0 if torch.cuda.is_available() else -1 # 0 для GPU, -1 для CPU
         summarizer = pipeline("summarization", model=model_name, device=device)
-    st.success("Модель успешно загружена!")
+    st.success("Модель готова к использованию!")
     return summarizer
 
 summarizer = load_summarizer_model()
